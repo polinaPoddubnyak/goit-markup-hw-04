@@ -157,6 +157,8 @@ section {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .hero-title {
@@ -184,6 +186,7 @@ section {
   height: 56px;
   border: none;
   border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-button:hover,
