@@ -394,6 +394,11 @@ section {
   transform: translateY(0%);
 }
 
+.portfolio-thumb {
+  position: relative;
+  overflow: hidden;
+}
+
 /* ====== Footer ====== */
 .footer {
   background-color: #2e2f42;
